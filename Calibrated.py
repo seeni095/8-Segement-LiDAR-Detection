@@ -15,6 +15,17 @@ leddar.enable_debug_trace(True)
 # Callback functions for the data thread
 def echoes_callback(echoes):
     data = echoes["data"]
+    raw_distances = []
+
+for point in data:
+    raw_distances.append(point["distances"])
+
+# Only process if 8 segments are detected
+if len(raw_distances) == 8:
+    calibrated_output = calibrate_and_filter(raw_distances)
+    print("Calibrated Output:", calibrated_output)
+else:
+    print(f"Warning: Expected 8 segments, got {len(raw_distances)}")
     points = []
 
     for point in data:
