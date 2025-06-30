@@ -13,7 +13,6 @@ This project implements a calibration and filtering pipeline for the 8-segment s
 - `raw_data.csv`: Example raw LiDAR readings (before calibration)
 - `calibrated_output.csv`: Output after calibration
 - `baseline_profile.csv`: Theoretical distances for a flat surface
-- `plot_profiles.py`: Script to visualize raw vs. calibrated outputs
 - `README.md`: This file
 
 ## ⚙️ Dependencies
