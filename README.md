@@ -9,7 +9,7 @@ This project implements a calibration and filtering pipeline for the 8-segment s
 
 ## 📂 Repository Contents
 
-- `calibrate_and_filter.py`: Core calibration and smoothing algorithm
+- `Calibrated.py`: Core calibration and smoothing algorithm
 - `raw_data.csv`: Example raw LiDAR readings (before calibration)
 - `calibrated_output.csv`: Output after calibration
 - `baseline_profile.csv`: Theoretical distances for a flat surface
