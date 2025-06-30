@@ -19,7 +19,8 @@ This project implements a calibration and filtering pipeline for the 8-segment s
 
 - Python 3.8+
 - `numpy`
-- `collections` (built-in)
+- `rospy`
+- `leddar`(drivers available in ros)
 
 Install dependencies:
 ```bash
