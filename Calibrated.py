@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from calibrate_and_filter import calibrate_and_filter
 import os
 import leddar
 import time
